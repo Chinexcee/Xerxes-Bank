@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: rgb(37, 36, 36);
+}
+
+.container-nav {
+  width: 100%;
+  line-height: 1.7rem;
+  background: linear-gradient(to right, rgb(241, 223, 223), rgb(95, 59, 95),  rgb(205, 240, 220));
+  display: flex;  
+  justify-content: space-between;
+  position: fixed;
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+
+.links ul {
+  list-style: none;
+  padding-top: 2rem;
+ 
+}
+
+.links ul li{
+  display: inline;
+  padding: 0 0.6rem;
+  font-size: large;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(226, 220, 220);
+}
+
+.cta-button {
+  margin-right: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.cta-button button {
+  background-color: rgb(95, 59, 95);
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.cta-button button a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.reg {
+  margin-right: 20px;
+}
+
+.content1 {
+  background: linear-gradient(to right, rgb(252, 226, 252), rgb(241, 223, 223), rgb(205, 240, 220));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 12rem;
+}
+
+.content1-text h2{
+  color: rgb(37, 36, 36);
+  text-align: justify;
+  padding: 1rem 0.8rem;
+  line-height: 80px;
+}
+
+.cont-img img {
+  width: 700px;
+}
+
+.trans h2 {
+  text-align: center;
+  line-height: 50px;
+  color: rgb(37, 36, 36);
+  padding: 2rem 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.trans img {
+  width: 1300px;
+  height: 500px;
+  padding-left: 3rem;
+}
+
+.trans-button{
+  margin-left: 38rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.trans-button  a {
+  background-color: rgb(95, 59, 95);
+  text-decoration: none;
+  padding: 1.3rem 1.8rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Transfer styling section */
+.form {
+  background: linear-gradient(to right, rgb(241, 223, 223), rgb(95, 59, 95),  rgb(205, 240, 220));
+  width: 50%;
+  border: none;
+  margin: auto;
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+
+.form input {
+  padding: 10px 50px;
+}
+
+.form h2 {
+  text-align: center;
+}
+.fields h2 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.fields label {
+  padding-left: 5rem;
+}
+
+.fields {
+  margin: auto;
+}
